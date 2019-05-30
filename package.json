@@ -31,9 +31,9 @@
   "homepage": "https://github.com/PRB0t/PRB0t#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.7.0",
     "npm-run-all": "^4.1.2",
     "webpack": "^3.10.0",
     "webpack-node-externals": "^1.6.0"
