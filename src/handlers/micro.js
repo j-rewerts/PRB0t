@@ -27,9 +27,8 @@ const handler = async (req, res) => {
     } catch(err) {
 
         console.log(err);
-        const error = new Error(`Pull request can't be created!`);
-        error.statusCode = 500;
-        throw error;
+        err.statusCode = 500;
+        throw err;
 
     }
 }
